@@ -51,7 +51,7 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px var(--shadow-color);
+  box-shadow: 0px 0px 4px 2px var(--rec-color);
   background-color: var(--rec-color);
 } 
 .decorated-zone:after {
@@ -299,16 +299,6 @@ p {
   font-weight: 700;
   line-height: 129.53px;
   text-align: left;
-}
-
-/* @media(prefers-color-scheme: light) {
-  .header__rec:before {
-    color: rgba(255, 0, 112, 0.0);
-   }
-  }
-   */
-  .header__rec:after {
-    
 }
 
 @media (768px <= width < 1024px) {

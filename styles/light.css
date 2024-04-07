@@ -1,4 +1,5 @@
 :root .theme_light {
+  --rec-color: rgba(255, 0, 112, 0.0);
   --shadow-color: #FF8DCB;
   --menu-color: #353430;
   --accent-color: #353430;
@@ -28,10 +29,10 @@
   --hover-menu-outline: rgb(50 49 45 / 0.4);
   --border-color: #353430;
  }
- 
- .header__rec:before {
+
+ /* .header__rec:before {
   color: rgba(255, 0, 112, 0.0);
- }
+ } */
 
 }
 
