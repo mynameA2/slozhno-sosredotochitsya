@@ -120,6 +120,8 @@
   font-weight: 700;
   line-height: 129.53px;
   text-align: left;
+  transform: scaleX(1.15);
+  padding-inline-start: 47px;
 }
 
 .header__promo {
