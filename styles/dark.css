@@ -1,6 +1,7 @@
-:root .theme_dark {
+.theme_dark {
   --rec-color: #ff0070;
   --shadow-color: #ff0070;
+  --menu-color: #FF0070;
   --accent-color: #ff0070;
   --header__promo-color: #000028;
   --bg-title-decor: #FF0070;
@@ -9,27 +10,8 @@
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
   --article-title-color: #000028;
-  --hover-menu-outline: #ff0070;
+  --hover-menu-outline: rgb(255 0 112/ 0.4);
   --border-color: #ff0070;
-}
-
-@media (prefect-color-scheme: dark) {
-  .header__rec:before {
-  color: var(--rec-color);
- }
-}
-
-.page .theme_dark {
-  --rec-color: #ff0070;
-  --shadow-color: #ff0070;
-  --accent-color: #ff0070;
-  --header__promo-color: #000028;
-  --bg-title-decor: #FF0070;
-  --background-color: #000028;
-  --background-image: url(../images/cover-image-dark.png);
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
-  --article-title-color: #000028;
-  --hover-menu-outline: #ff0070;
-  --border-color: #ff0070;
+  --main-focus-visible: #F1B2CE;
+  --main-hover: #F1B2CE;
 }

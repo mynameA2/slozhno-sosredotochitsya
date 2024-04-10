@@ -10,6 +10,8 @@
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
   --article-title-color: #000028;
-  --hover-menu-outline: #ff0070;
+  --hover-menu-outline: rgb(255 0 112/ 0.4);
   --border-color: #ff0070;
+  --main-focus-visible: #F1B2CE;
+  --main-hover: #F1B2CE;
 }

@@ -1,54 +1,40 @@
-:root .theme_light {
+.theme_light {
   --rec-color: rgba(255, 0, 112, 0.0);
   --shadow-color: #FF8DCB;
   --menu-color: #353430;
   --accent-color: #353430;
   --header__promo-color: #353430;
   --bg-title-decor: #FF8DCB;
-  --background-color: #FFF1F7;
+  --background-color: ##FFF1F7;
   --background-image: url(../images/cover-image-light.png);
   --title-color: #FFC2E6;
   --text-color: #353430;
   --article-title-color: #353430;
   --hover-menu-outline: rgb(50 49 45 / 0.4);
   --border-color: #353430;
-}  
+  --main-focus-visible: #353430;
+  --main-hover: #353430;
+}
 
 @media (prefers-color-scheme: light) {
-:root .theme_light {
-  --shadow-color: #FF8DCB;
-  --menu-color: #353430;
-  --accent-color: #353430;
-  --header__promo-color: #353430;
-  --bg-title-decor: #FF8DCB;
-  --background-color: ##FFF1F7;
-  --background-image: url(../images/cover-image-light.png);
-  --title-color: #FFC2E6;
-  --text-color: #353430;
-  --article-title-color: #353430;
-  --hover-menu-outline: rgb(50 49 45 / 0.4);
-  --border-color: #353430;
- }
-
- /* .header__rec:before {
-  color: rgba(255, 0, 112, 0.0);
- } */
-
+  :root  {
+    --rec-color: rgba(255, 0, 112, 0.0);
+    --shadow-color: #FF8DCB;
+    --menu-color: #353430;
+    --accent-color: #353430;
+    --header__promo-color: #353430;
+    --bg-title-decor: #FF8DCB;
+    --background-color: #FFF1F7;
+    --background-image: url(../images/cover-image-light.png);
+    --title-color: #FFC2E6;
+    --text-color: #353430;
+    --article-title-color: #353430;
+    --hover-menu-outline: rgb(50 49 45 / 0.4);
+    --border-color: #353430;
+    --main-focus-visible: #353430;
+    --main-hover: #353430;
+  }
 }
 
-.page .theme_light {
-  --shadow-color: #FF8DCB;
-  --menu-color: #353430;
-  --accent-color: #353430;
-  --header__promo-color: #353430;
-  --bg-title-decor: #FF8DCB;
-  --background-color: ##FFF1F7;
-  --background-image: url(../images/cover-image-light.png);
-  --title-color: #FFC2E6;
-  --text-color: #353430;
-  --article-title-color: #353430;
-  --hover-menu-outline: rgb(50 49 45 / 0.4);
-  --border-color: #353430;
-}
 
 
