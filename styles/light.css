@@ -1,4 +1,4 @@
-.theme_light {
+.page.theme_light {
   --rec-color: rgba(255, 0, 112, 0.0);
   --shadow-color: #FF8DCB;
   --menu-color: #353430;
@@ -17,7 +17,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root  {
+  :root {
     --rec-color: rgba(255, 0, 112, 0.0);
     --shadow-color: #FF8DCB;
     --menu-color: #353430;
