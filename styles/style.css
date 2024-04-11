@@ -220,10 +220,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50%;
 }
 
 .main__section-image-list {
@@ -255,6 +251,13 @@
 
 .section__image-street {
   grid-area: image5;
+}
+
+.section__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
 }
 
 .footer {
@@ -443,7 +446,7 @@
     max-width: 100vw;
   } 
 
-  .main__section-image-list{
+  .main__section-image-list {
     display: flex;
     flex-direction: column;
     padding: 0;
