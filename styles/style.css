@@ -19,7 +19,7 @@
   display: grid;
   position: relative;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0 0.4fr min-content 0.1fr 0.5fr;
+  grid-template-rows: 0 0.6fr min-content 0.2fr 0.5fr;
   block-size: 100vh;
 }
 
@@ -62,7 +62,7 @@
 .decorated-zone:after {
   content: "";
   position: relative;
-  bottom: -20vh;
+  bottom: -25vh;
   width: 25px;
   height: 25px;
   border-bottom: 1px solid var(--border-color);
@@ -119,7 +119,6 @@
   font-weight: 700;
   line-height: 1;
   margin-inline-start: -20px;
-  margin-block-start: -60px;
 }
 
 .header__subtitle {
@@ -143,8 +142,8 @@
 .main__section {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-block-start: -160px;
   gap: 10px;
+  padding-block-start: 4%;
 }
   
 .main__section-title {
@@ -179,7 +178,7 @@
 }
  
 .what__section {
-  margin-block-start: 80px;
+  margin-block-start: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -209,7 +208,7 @@
 }
 
 .how__section {
-  margin-block-start: 80px;
+  margin-block-start: 40px;
 }
 
 .main__section-how-list {
@@ -227,7 +226,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-block-start: 80px;
+  margin-block-start: 40px;
 }
 
 .main__section-image-list {
@@ -269,7 +268,7 @@
 }
 
 .footer {
-  margin-block-start: -25px;
+  padding-block-start: 10%;
   block-size: 100vh;
   display: flex;
   justify-content: center;
@@ -280,7 +279,7 @@
   content: "";
   position: relative;
   left: 74%;
-  top: 9%;
+  top: -5%;
   align-self: flex-start;
 }
 
@@ -288,7 +287,7 @@
   content: "";
   position: relative;
   right: 74%;
-  top: 33%;
+  top: 52%;
   align-self: center;
 }
 
@@ -330,28 +329,19 @@
 
   .main__section {
     gap: 20px;
-    margin-block-start: 40px;
+    padding-block-start: 5%;
   }
 
   .main__article-what {
     width: calc(100vw - 40px);
   }
 
-  .footer {
-    min-block-size: 100vh;
-    margin-block-start: 75px;
+  .main__section-image {
+    gap: 20px;
   }
 }
 
 @media (768px <= width < 1024px) {
-  
-  .header {
-    grid-template-rows: 0 0.8fr min-content 0.2fr 0.5fr;
-  }
-
-  .header__theme-menu {
-    margin-block-start: -55px;
-  }
 
   .header__rec:before {
     left: 92%;
@@ -362,7 +352,6 @@
   }
 
   .title {
-    margin-inline-start: -20px;
     padding-block-end: 30px;
   }
 
@@ -375,32 +364,27 @@
   }
 
   .what__section {
-    margin-block-start: 80px;
     gap: 10px;
+    padding-block-start: 6%;
   }
 
   .main__what-article-list {
     flex-direction: column;
 }
 
-  .how__section {
-    margin-block-start: 80px;
-    padding-block-end: 45px;
-  }
-
   .decorated-zone-footer::before {
     left: 75%;
-    top: -2%;
+    top: 0%;
   }
 
   .decorated-zone-footer:after {
     align-self: center;
-    top: 43%;
+    top: 52%;
     right: 75%;
   }
 
   .footer__title {
-    margin-block-start: -36px;
+    padding-block-start: 8%;
   }
 
 }
@@ -423,7 +407,7 @@
   }
 
   .decorated-zone:after {
-    bottom: 82%;
+    bottom: -48%;
   }
 
   .header__rec:after {
@@ -431,13 +415,13 @@
   }
 
   .header__theme-menu {
-    margin-block-start: 35px;
+    margin-block-start: 65px;
   }
 
   .title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 0.8;
-    margin-block-start: 50px;
+    margin-block-start: 74px;
     margin-inline-start: 0;
   }
 
@@ -450,11 +434,11 @@
   .main__section {
     display: flex;
     flex-direction: column;
-    margin-block-start: -326px;
+    padding-block-start: 8%;
   }
 
   .what__section {
-    margin-block-start: 50px;
+    padding-block-start: 3%;
   }
 
   .main__what-article-list {
@@ -467,7 +451,7 @@
   }
 
   .how__section {
-    margin-block-start: 50px;
+    padding-block-start: 3%;
   }
 
   .main__section-title {
@@ -477,13 +461,12 @@
   .main__section-image-list {
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin-block-start: -10px;
     gap: 5px;
   }
 
   .main__section-image {
-    margin-block-start: 50px;
+    padding-block-start: 3%;
+    gap: 10px;
   }
 
   .section__image {
@@ -491,16 +474,21 @@
   }
 
   .footer {
-    margin-block-start: -47%;
+    margin-block-start: 0%;
     margin-inline-start: -20px;
   }
 
+  .footer__title {
+    margin-block-start: 0;
+    padding-block-start: 8%;
+  }
+
   .footer::before {
-    top: 21%;
+    top: 2%;
   }
 
   .footer::after {
     right: 94%;
-    top: 32%;
+    top: 52%;
   }
  }
