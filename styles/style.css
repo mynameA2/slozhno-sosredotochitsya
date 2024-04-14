@@ -130,7 +130,7 @@
   grid-row-start: 5;
   background-color: var(--bg-title-decor);
   block-size: max-content;
-  margin-block-start: 10px;
+  margin-block-start: 20px;
 }
 
 .header__subtitle-text {
@@ -366,7 +366,7 @@
 }
 
   .decorated-zone-footer::before {
-    left: 74%;
+    left: 75%;
     top: 0%;
   }
 
